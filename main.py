@@ -91,5 +91,43 @@ while True:
     elif opcion == "3":
           break
 
+#ciclo si el inicio de sesion es correcto
+while True:
+  print("que desea hacer?")
+  print("1. porque es importante reciclar el aceite")
+  print("2. ver maneras de reciclar aceite")
+  print("3. empresas que recolectan aceite")
+  print("4. puntos y fechas de recoleccion")
+  print("5. salir de sesion")
+  hacer = input("introduzca una opcion: ")
+
+  if hacer == "1":
+    print("porque es importante reciclar el aceite:")
+    print("es importante reciclarlo porque de esta manera reduce la contaminacion")
+    print(" conserva los recursos")
+    print("y reduce los residuos")
+
+  elif hacer == "2":
+    print("maneras de reciclar aceite:")
+    print("fabricar jabon")
+    print("fabricar velas")
+    print("llevarlo a empresas que reciclan aceite")
+
+  elif hacer == "3":
+    print("empresas que recolectan aceite:")
+    print("empresa 1")
+    print("empresa 2")
+    print("empresa 3")
+
+  elif hacer == "4":
+    print("puntos y fechas de recoleccion:")
+    print("fecha 1 y lugar 1")
+    print("fecha 2 y lugar 2")
+    print("fecha 3 y lugar 3")
+
+  elif hacer == "5":
+    print("saliste de sesion")
+
+
 # Cerramos la conexión
 conn.close()
